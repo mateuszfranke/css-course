@@ -89,6 +89,9 @@ body {
     color: darkgreen;
 
 }
+.button:focus{
+    outline: none;
+}
 
 /* h1 {
     font-family: sans-serif;
