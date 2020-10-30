@@ -26,6 +26,12 @@
     vertical-align: middle;
 }
 
+.plan__list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .plan__annotation{
     background-color: white;
     color: #0e4f1f;
