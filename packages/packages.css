@@ -32,15 +32,24 @@ main {
     background-color: white;
 }
 
+.clearfix{
+    clear: both;
+}
+
 #plus {
     background-color: rgba(213,255,220,095);
 }
 #free {
     background-color: rgba(234,252,237,095);
+    float: right;
+    border-right: none;
+    border-left:  4px solid #0e4f1f;
+    text-align: right;
 }
 #premium {
     background-color: rgba(14,79,31,095);
 }
+
 
 #premium .package__title{
     color: white;
