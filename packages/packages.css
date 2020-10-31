@@ -6,6 +6,7 @@ main {
     margin: 16px 0;
     border: solid 4px #0e4f1f;
     border-left: none;
+    position: relative;
 }
 
 .package:hover,
@@ -65,4 +66,15 @@ main {
     height: 100%;
     position: fixed;
     z-index: -2;
+}
+
+.package__badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px;
 }
